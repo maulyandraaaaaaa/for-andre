@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>for andre ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="passwordscreen" id="passwordscreen">
+
+<div class="passbox">
+
+<h2>enter password 🤍</h2>
+
+<input
+type="password"
+id="passwordinput"
+placeholder="password...">
+
+<button onclick="checkPassword()">
+enter
+</button>
+
+</div>
+
+</div>
+
+<div class="shooting-stars">
+
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+<div class="stars"></div>
+
+<div class="hearts">
+
+<div class="lights"></div>
+
+
+<span>❤️</span>
+<span>🤍</span>
+<span>❤️</span>
+<span>🤍</span>
+<span>❤️</span>
+
+</div>
+
+<!-- COUNTDOWN SCREEN -->
+
+<div class="countscreen" id="countscreen">
+
+<div class="countbox">
+
+<h2>andre birthday 🎂</h2>
+
+<div id="livecount"></div>
+
+</div>
+
+</div>
+
+<!-- LOADER -->
+
+<div class="loader" id="loader">
+
+<h1>loading...</h1>
+
+</div>
+
+<!-- OPENING -->
+
+<div class="intro" id="intro">
+
+<h1>
+<span>f</span>
+<span>o</span>
+<span>r</span>
+
+<span>a</span>
+<span>n</span>
+<span>d</span>
+<span>r</span>
+<span>e</span>
+
+❤️
+</h1>
+
+</div>
+
+<div class="opening" id="opening">
+
+<video autoplay muted loop playsinline class="bgvideo">
+
+<source src="video.mp4" type="video/mp4">
+
+</video>
+
+<div class="dark"></div>
+
+<div class="opencontent">
+
+<h1>for andre ❤️</h1>
+
+<p>tap to open</p>
+
+<button onclick="openCard()">open</button>
+
+</div>
+
+</div>
+
+<!-- MAIN -->
+
+<div class="main" id="main">
+
+<div class="content">
+
+<h2>Happy Birthday 🤍</h2>
+
+<div class="date">
+21 oktober 2026 ✦ forever
+</div>
+
+<div class="counter" id="counter"></div>
+
+<div class="birthdaycount" id="birthdaycount"></div>
+
+<!-- SLIDER -->
+
+<div class="slider">
+
+<div class="slides">
+
+<img src="foto1.jpeg">
+<img src="foto2.jpeg">
+<img src="foto3.jpeg">
+<img src="foto4.jpeg">
+<img src="foto5.jpeg">
+<img src="foto6.jpeg">
+<img src="foto7.jpeg">
+<img src="foto8.jpeg">
+<img src="foto9.jpeg">
+<img src="foto10.jpeg">
+
+</div>
+
+</div>
+
+<div class="gallerytitle">
+our memories 🤍
+</div>
+
+<div class="polaroidwrap">
+
+<div class="polaroid rotate1">
+<img src="foto1.jpeg">
+<p>my favorite person 🤍</p>
+</div>
+
+<div class="polaroid rotate2">
+<img src="foto2.jpeg">
+<p>forever with u ✨</p>
+</div>
+
+<div class="polaroid rotate3">
+<img src="foto3.jpeg">
+<p>best moments 💖</p>
+</div>
+
+</div>
+
+<!-- MESSAGE -->
+
+<div class="timeline">
+
+<div class="timelineitem">
+💖 first meet - 2025
+</div>
+
+<div class="timelineitem">
+🌷 first chat
+</div>
+
+<div class="timelineitem">
+❤️ together forever
+</div>
+
+</div>
+
+<div class="message">
+
+<div class="quote">
+“every love story is beautiful,
+but ours is my favorite.”
+</div>
+
+<p id="typing"></p>
+
+<button class="letterbtn"
+onclick="toggleLetter()">
+
+open letter 💌
+
+</button>
+
+<div class="loveletter">
+
+<h3>for my favorite person 🤍</h3>
+
+<p>
+thank you for being part of my life.
+thank you for every little moment,
+every laugh,
+every comfort,
+and every memory we made together.
+
+maybe this website is simple,
+but everything here was made with love.
+
+i hope your birthday becomes one
+of the happiest days ever.
+
+and i hope,
+you'll stay with me for a very long time ❤️
+</p>
+
+</div>
+
+</div>
+
+<div class="finalsection">
+
+<h2 class="finaltext">
+thank you for existing ❤️
+</h2>
+
+<p class="finaldesc">
+i hope every birthday after this
+will always have me in it.
+</p>
+
+<div class="end">
+i love you forever ❤️
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+<!-- MUSIC BUTTON -->
+
+<div class="visualizer">
+
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+<button class="musicbtn" onclick="toggleMusic()">
+🎵
+</button>
+
+<!-- MUSIC -->
+
+<audio id="music" loop>
+
+<source src="music.mp3" type="audio/mp3">
+
+</audio>
+
+<!-- CONFETTI -->
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<!-- SCRIPT -->
+
+<audio id="typesound">
+
+<source src="typing.mp3" type="audio/mp3">
+
+</audio>
+
+<script src="script.js"></script>
+
+<div class="lovepopup" id="lovepopup">
+i love you ❤️
+</div>
+
+<div class="popuptext" id="popuptext">
+you are loved ❤️
+</div>
+
+<div class="shooting-stars">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<div class="visualizer">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<div class="shooting-stars">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<div class="visualizer">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<div class="aurora"></div>
+
+<div class="sparkle"></div>
+
+<div class="rainlove">
+
+<span>❤️</span>
+<span>🤍</span>
+<span>❤️</span>
+<span>🤍</span>
+<span>❤️</span>
+<span>🤍</span>
+
+</div>
+
+<div class="floatingquote"
+id="floatingquote">
+
+i love you ❤️
+
+</div>
+
+<div class="trail"></div>
+
+<div class="bubbles">
+
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+<div class="light1"></div>
+<div class="light2"></div>
+
+<div class="shooting-stars">
+
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+</body>
+
+</html>
